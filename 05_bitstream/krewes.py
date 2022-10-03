@@ -1,5 +1,5 @@
 """
-Duo: Elizabeth Paperno, Abid Talukder
+Duo AE: Elizabeth Paperno, Abid Talukder
 SoftDev
 K05 -- Bitstrem
 2022-09-28
