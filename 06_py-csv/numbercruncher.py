@@ -1,8 +1,9 @@
 '''
 TEAM EA: Elizabeth, Abid Talukder
 SoftDev
-K01 -- Choose
+K06 -- py-csv
 2022-09-30
+Time Spent: 0.6 hours
 
 DISCO
 ___________
