@@ -3,8 +3,8 @@ ZEMZEM is AWZOME Ziying Jian, Maya Nelson, Elizabeth Paperno
 SoftDev
 K07 -- Flask
 2022-10-03
-time spent: 
-''' 
+time spent:
+'''
 
 from flask import Flask
 
@@ -23,17 +23,20 @@ DISCO:
 * Flask builds on similar object-oriented programming fundamentals as Java and Python
 * Name the file with the same name as the Flask variable
 QCC:
-0.Similar to initializing an instance of a class, learned in Java 
+0.Similar to initializing an instance of a class, learned in Java. Also similar to other __init__ keywords we see in Java.
 1.Based on using terminal commands in class, we have used this backslash when
-constructing file paths 
-2.In the previous line, a file path to the app was denoted. This will also be
-where __name__ will be printed -- in that file in the file path. 
-3.It will print the information to terminal when you run the code. 
-4.The print statement will appear wherever the file path leads to when we call app.run() on the web server.
-5.Similar to the way you would call any method, such as main() 
+constructing file paths. This is likely the root directory.
+2. It will print in the terminal.
+3.It will print __main__ to terminal when you run the code.
+4.The print statement will appear on the web server when we call app.run() as this is where the app is routed to.
+5.Similar to the way you would call any method of a class in Java (such as main()). Also similar to the run() method in ReactJS.
 ...
 INVESTIGATIVE APPROACH:
-<Your concise summary of how
- you and your team set about
- "illuminating the cave of ignorance" here...>
+<We first read through the code and attempted to try
+to predict its behavior, using prior knowlege from
+other languages. Then we ran the code in terminal 
+which gave us a link to a web server, which we opened.
+The website displayed the text "No hablo queso!". We also
+noted that when opened the page output is printed to
+terminal (including the timestamp, etc.).>
 '''
