@@ -3,12 +3,11 @@
 # Oct 2022
 
 from flask import Flask
-app = Flask(__name__) # ...
+app = Flask(__name__) # creates instance of class Flask
 
-@app.route("/") # ...
+@app.route("/") # routes to root directory
 def hello_world():
-    print(__name__) # ...
-    return "No hablo queso!"  # ...
+    print(__name__) # prints to console
+    return "No hablo queso!"  # prints to created server
 
-app.run()  # ...
-                
+app.run()  # creates web server
