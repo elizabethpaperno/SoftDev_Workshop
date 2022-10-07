@@ -1,7 +1,7 @@
 '''
 TEAM KrEWes: Elizabeth Paperno, Raven (Ruiwen) Tang, William Vongphanith
 SoftDev
-K08 -- Using Flask to Display Input on a Server
+K08 -- Using Flask to Display Output on a Server
 2022-10-06
 Time Spent: 0.6 hours
 
