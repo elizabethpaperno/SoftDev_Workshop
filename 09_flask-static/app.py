@@ -16,6 +16,7 @@ QCC
 ___________
 - Can we change if the file is downloaded or displayed with server configuration?
 - What other file extenstions can be displayed properly (in addition to html)?
+- Do you have to serve from a folder named static?
 
 '''
 
