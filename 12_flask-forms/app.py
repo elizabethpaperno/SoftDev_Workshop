@@ -9,12 +9,9 @@ def disp_loginpage():
 
 @app.route("/auth", methods=['GET', 'POST']) # /auth is referenced in form action in the html #, methods=['GET', 'POST']) # By default the user can both post and request info but passing the methods parameter specifies which operations can be done
 def authenticate():
-    if request.method =='POST':
-        print("asfd")
-        return render_template("response.html", name=request.form['name'], req=str(request))
-    name = request.args['name']
-    req = str(request)
-    return render_template('response.html', name=name, req=req)
+    if request.method =='POST': #forces post request
+        name = request.form['name'] #allows you to access name
+    return render_template("response.html", name=request.form['name'], req=str(request))
 
 
 if __name__ == "__main__":  # true if this file NOT imported
