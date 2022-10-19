@@ -8,3 +8,5 @@ DISCO:
 QCC:
 * Is there another way, except using a grid, to divide the website into sections?
 * Is there any difference between using internal, external, and inline css execution wise (even though they display in same way)?
+
+**Credit for Lorem Ipsum Generator**: https://litipsum.com/
