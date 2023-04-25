@@ -11,10 +11,12 @@ var mode = "rect";
 var toggleMode = (e) => {
     console.log("toggling...");
     if (mode == "rect") {
-        mode = "circ";
+        mode = "circ"
+        bToggler.innerHTML = "circ"
     }
     else {
-        mode = "rect";
+        mode = "rect"
+        bToggler.innerHTML = "rect"
     }
 }
 
@@ -55,9 +57,7 @@ var wipeCanvas = function() {
 
 c.addEventListener("click", draw);
 var bToggler = document.getElementById("buttonToggle");
-bToggler.addEventListener('click', ()=>{
-    toggleMode;
-})
+bToggler.addEventListener('click', toggleMode)
 var clearB = document.getElementById("buttonClear");
 clearB.addEventListener("click", wipeCanvas);
 c.addEventListener("click", draw)
