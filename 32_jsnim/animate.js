@@ -53,8 +53,8 @@ var dvdLogoSetup = function() {
     var rectWidth = 120;
     var rectHeight = 60;
 
-    var rectX = Math.random() * (c.width);
-    var rectY = Math.random() * (c.height);
+    var rectX = Math.random() * (c.width - rectWidth);
+    var rectY = Math.random() * (c.height - rectHeight);
 
     var randx = Math.floor(Math.random() * 2);
     var randy = Math.floor(Math.random() * 2);
